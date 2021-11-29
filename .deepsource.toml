@@ -1,15 +1,9 @@
 version = 1
 
 [[analyzers]]
-name = "javascript"
+name = "php"
 enabled = true
 
-  [analyzers.meta]
-  plugins = [
-    "vue",
-    "meteor"
-  ]
-
 [[transformers]]
-name = "prettier"
+name = "php-cs-fixer"
 enabled = true
